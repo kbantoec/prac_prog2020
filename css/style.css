@@ -867,6 +867,7 @@ hr {
 
 #top-ico {
   position: fixed;
+  z-index: 1;
   width: 40px;
   text-align: center;
   margin-top: 10px;
@@ -1156,7 +1157,7 @@ button {
     grid-template-columns: 1fr;
   }
 
-  body, .chapter h4 {
+  body, .chapter h4, h1 {
     text-align: center;
   }
 
