@@ -79,7 +79,6 @@ Font settings
   src: url('fonts/Lora/Lora-Regular.ttf') format('truetype');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Crimson+Pro:400,700i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700i&display=swap');
 
 
@@ -248,7 +247,7 @@ h6 {
 }
 
 .chapter {
-  font-family: 'Computer Modern Sans';
+  font-family: 'Lato';
   margin-bottom: 30px;
   /* border: 1px solid #e6eaeb; */
   border-radius: 4px;
@@ -520,7 +519,7 @@ article {
   background-color: inherit;
   padding: 1em;
   font-size: 1.2em;
-  font-family:  'Lora', 'CMU Serif Roman', 'Computer Modern Sans Demi-Condensed';
+  font-family:  'Lora', 'serif';
   margin-bottom: 500px;
 }
 
@@ -529,7 +528,7 @@ article h1 {
 }
 
 article h1, h2 {
-  font-family: 'medium-content-title-font', 'Computer Modern Sans Demi-Condensed';
+  font-family: 'Lato', 'medium-content-title-font', 'Computer Modern Sans Demi-Condensed';
 }
 
 .img-wrapper-img {
@@ -557,7 +556,7 @@ article h1, h2 {
 }
 
 .img-caption {
-  font-family: 'Computer Modern Sans';
+  font-family: 'Lato';
 }
 
 .video-wrapper {
@@ -647,7 +646,7 @@ table, th, td {
   padding: 8px;
   background-color: #244655;
   /* 7971ff */
-  font-family: 'Computer Modern Sans';
+  font-family: 'Lato';
   font-size: 0.9em;
 }
 
@@ -701,7 +700,7 @@ audio {
 }
 
 .instructions {
-  font-family: 'Computer Modern Sans';
+  font-family: 'Lato';
   background-color: #282c34;
   border-radius: 5px;
   padding: 15px;
@@ -1011,7 +1010,7 @@ iframe {
 }
 
 .definition, .corollary {
-  font-family: 'NexusSerif';
+  font-family: 'Lora';
   margin: 20px;
   padding: 10px;
   border: solid 3px #282c34;
@@ -1078,7 +1077,7 @@ iframe {
 }
 
 .exercise-answer {
-  font-family: 'NexusSerif';
+  font-family: 'Lora';
   margin: 20px;
   padding: 10px;
   border: solid 3px #282c34;
