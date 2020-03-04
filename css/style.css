@@ -2,6 +2,41 @@
 Font settings
 *********************************/
 @font-face {
+  font-family: 'medium-content-title-font';
+  font-weight: 400;
+  font-style: normal;
+  src: url('fonts/medium/fell-400-normal.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'medium-content-serif-font';
+  font-weight: 700;
+  font-style: italic;
+  src: url('fonts/medium/charter-700-italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'medium-content-serif-font';
+  font-weight: 700;
+  font-style: normal;
+  src: url('fonts/medium/charter-700-normal.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'medium-content-serif-font';
+  font-weight: 400;
+  font-style: italic;
+  src: url('fonts/medium/charter-400-italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'medium-content-serif-font';
+  font-weight: 400;
+  font-style: normal;
+  src: url('fonts/medium/charter-400-normal.woff') format('woff');
+}
+
+@font-face {
   font-family: 'Operator Mono Light';
   src: url('fonts/operator-mono/OperatorMono-Light.otf') format('otf');
   font-weight: normal;
