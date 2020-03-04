@@ -1155,4 +1155,12 @@ button {
   section {
     grid-template-columns: 1fr;
   }
+
+  body, .chapter h4 {
+    text-align: center;
+  }
+
+  .chapter ol {
+    text-align: left;
+  }
 }
