@@ -159,6 +159,10 @@ header div {
   margin: auto;
 }
 
+#h_tuto1 {
+  height: auto;
+}
+
 #h1-text {
   float: left;
   margin-right: 20px;
