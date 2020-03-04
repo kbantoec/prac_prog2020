@@ -529,7 +529,7 @@ article h1 {
 }
 
 article h1, h2 {
-  font-family: medium-content-title-font, 'Computer Modern Sans Demi-Condensed';
+  font-family: 'medium-content-title-font', 'Computer Modern Sans Demi-Condensed';
 }
 
 .img-wrapper-img {
