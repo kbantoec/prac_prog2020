@@ -80,6 +80,7 @@ Font settings
 }
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 
 /*********************************
@@ -1122,12 +1123,17 @@ button {
   min-width: 250px;
 }
 
-#basic_workflow_list {
+#tuto1 {
   display: none;
 }
 
-#basic_workflow_btn {
+#tuto1_btn {
   background: none;
   border: none;
   color: #ffc844;
+}
+
+#tuto1 span {
+  font-size: 0.8em;
+  font-family: 'Lora';
 }

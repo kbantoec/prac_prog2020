@@ -1,5 +1,5 @@
 function drop_down() {
-  var x = document.getElementById("basic_workflow_list");
+  var x = document.getElementById("tuto1");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
