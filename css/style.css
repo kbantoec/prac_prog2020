@@ -109,7 +109,7 @@ body {
     line-height: 1.625rem;
     font-family: 'Lato', serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.2em;
     margin: 0px;
 }
 
@@ -872,7 +872,7 @@ hr {
 
 #top-ico {
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   width: 40px;
   text-align: center;
   margin-top: 10px;
@@ -1144,6 +1144,40 @@ button {
   font-family: 'Lora';
 }
 
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  font-family: Lato;
+  font-weight: bold;
+  background: none;
+  border: none;
+  /* background-color: #eee; */
+  color: #dedede;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  /* border: solid #eee 1px; */
+  border-bottom: solid #dedede 2px;
+  text-align: left;
+  outline: none;
+  font-size: 1em;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  /* background-color: #ccc; */
+  color: #ffc844;
+  border-bottom: solid #ffc844 2px;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  text-align: left;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones */
   aside {
@@ -1170,38 +1204,9 @@ button {
   .chapter ol {
     text-align: left;
   }
-}
 
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  font-family: Lato;
-  font-weight: bold;
-  background: none;
-  border: none;
-  /* background-color: #eee; */
-  color: #dedede;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  /* border: solid #eee 1px; */
-  border-bottom: solid #dedede 2px;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  /* background-color: #ccc; */
-  color: #ffc844;
-  border-bottom: solid #ffc844 2px;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  text-align: left;
+  html,
+  body {
+    font-size: 1em;
+  }
 }
