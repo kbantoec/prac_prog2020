@@ -12,6 +12,9 @@
     <!-- datacamp-light -->
     <script async src="https://cdn.datacamp.com/dcl-react.js.gz"></script>
 
+    <!-- Some homemade functions -->
+    <script type="text/javascript" src="../js/interactivity.js"></script>
+
     <title>Tutoriel 1</title>
   </head>
   <body>
@@ -42,24 +45,55 @@
 
         <article>
 
-          <div data-datacamp-exercise data-lang="python" data-height="auto">
-            <code data-type="pre-exercise-code"></code>
-            <code data-type="sample-code">class Fraction:
+          <button class="accordion">Puis-je utiliser n'importe quel nom pour mes variables?</button>
+          <div class="panel">
+            <p>Non:</p>
+            <ol>
+              <li>Il y a ce qu'on appelle les <strong>mots réservés</strong>. Par exemple, <code>for</code>, <code>as</code>.En tout, il y en a 33 de ces mots. Donc, lorsque tu nommes une variable, sois sûr qu'il ne s'agit pas d'un mot réservé!</li>
+              <li>La bonne pratique veut que le nom des variables ait du sens par rapport au programme que tu écris. En effet, il faut que ce dernier soit <strong>lisible</strong> non seulement pour toi, mais surtout pour les autres.</li>
+            </ol>
+          </div>
+          <button class="accordion">Puis-je utiliser n'importe quel nom pour mes variables?</button>
+          <div class="panel">
+            <br>
+            <div data-datacamp-exercise data-lang="python" data-height="auto">
+              <code data-type="pre-exercise-code"></code>
+              <code data-type="sample-code">class Fraction:
   pass
 
 if __name__ == '__main__':
   print(2 ** 3)
-            </code>
-            <code data-type="solution"></code>
-            <code data-type="sct"></code>
-            <div data-type="hint">Just press 'Run'.</div>
+              </code>
+              <code data-type="solution"></code>
+              <code data-type="sct"></code>
+              <div data-type="hint">Just press 'Run'.</div>
+            </div>
           </div>
-        </div>
+          </div>
+
 
         </article>
 
       </section>
 
     </div>
+
+    <!-- Accordion panel -->
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
   </body>
 </html>
