@@ -526,6 +526,8 @@ article {
   font-size: 1.2em;
   font-family:  'Lora', 'serif';
   margin-bottom: 500px;
+  font-size: 0.9em;
+  text-align: left;
 }
 
 article h1 {
@@ -1159,10 +1161,11 @@ button {
 
   section {
     grid-template-columns: 1fr;
+    padding: 20px;
   }
 
   body, .chapter h4, h1 {
-    text-align: center;
+    text-align: left;
   }
 
   .chapter ol {
@@ -1202,5 +1205,4 @@ button {
   display: none;
   overflow: hidden;
   text-align: left;
-  font-size: 0.8em;
 }
